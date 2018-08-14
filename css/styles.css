@@ -55,12 +55,13 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
-  height: 80px;
+  height: 60px;
   background-color: #252831;
-  text-align:center;
+  line-height: 60px;
 }
 nav h1 {
   margin: auto;
+	text-align: center;
 }
 nav h1 a {
   color: #fff;
@@ -120,6 +121,7 @@ nav h1 a {
   font-weight: normal;
   line-height: 1;
   margin: 0 20px;
+  padding-top: 10px;
 }
 .filter-options select {
   background-color: white;
