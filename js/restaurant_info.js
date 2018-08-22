@@ -89,7 +89,7 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
   const image = document.getElementById('restaurant-img');
   image.className = 'restaurant-img'
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
-	image.alt = DBHelper.imageAltText(restaurant); //https://www.w3schools.com/jsref/prop_img_alt.asp
+  image.alt = DBHelper.imageAltText(restaurant); //https://www.w3schools.com/jsref/prop_img_alt.asp
 
   const cuisine = document.getElementById('restaurant-cuisine');
   cuisine.innerHTML = restaurant.cuisine_type;
