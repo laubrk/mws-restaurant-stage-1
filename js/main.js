@@ -161,6 +161,7 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+	image.alt = DBHelper.imageAltText(restaurant); //https://www.w3schools.com/jsref/prop_img_alt.asp
   li.append(image);
 
   const name = document.createElement('h1');
