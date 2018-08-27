@@ -1,1 +1,0 @@
-// service worker. javascript to follow
