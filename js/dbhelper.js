@@ -159,7 +159,7 @@ class DBHelper {
 	static imageAltText(restaurant) {
 		return `${restaurant.alt}`;
 	}
-	
+  
   /**
    * Map marker for a restaurant.
    */
